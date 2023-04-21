@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="mario.1.jpeg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> SUPER MARIO BROS </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 90px !important;
+    width: 30%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #ff0000;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 90px !important;
+      width: 50%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 50px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerSuperMarioBros"
+            aria-controls="navbarTogglerSuperMarioBros" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Super Mario Bros</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerSuper Mario Bros">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="super-mario-bros.1.jpg" alt="Super Mario 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="super mario bros.2.jpeg" alt="Super Mario 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.3.jpg" alt="Super Mario 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="super-mario-bros.4.png" alt="Super Mario 4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.5.jpg" alt="Super Mario 5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="super mario bros.6.webp" alt="Super Mario 6">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.7.jpeg" alt="Super Mario 7">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="super mario bros.8.jpeg" alt="Super Mario 8">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.9.jpeg" alt="Super Mario 9">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.10.jpeg" alt="Super Mario 10">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="personajes-de-mario-supermario.11.jpg" alt="super mario 11">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="super mario bros.12.webp" alt="Super Mario 12">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="super mario bros.13.jpeg" alt="Super Mario 13">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Super Mario Bros:</h1>
+      <p class="Intro"> Es una serie de videojuegos de plataformas creados por la empresa desarrolladora Nintendo y protagonizados por su mascota, Mario.
+        Los videojuegos de Super Mario siguen las aventuras del plomero Mario,
+         por lo general en el ficticio Reino Champiñón. 
+         A menudo se le une su hermano, Luigi, y ocasionalmente, otros miembros de la franquicia. 
+         Al igual que en la mayoría de los videojuegos de plataformas, el jugador principalmente corre y salta a través de plataformas y sobre enemigos en distintos niveles temáticos.
+          Los videojuegos tienen tramas generalmente simples, en los que Mario debe rescatar a la princesa Peach (Princesa Toadstool) que es secuestrada por el villano principal de la franquicia, Bowser. 
+          El primer título de la serie, "Super Mario Bros." , lanzado para el Nintendo Entertainment System (NES) en 1985, estableció conceptos y elementos de jugabilidad prevalecientes en casi todos los videojuegos de Super Mario desde entonces. 
+          Estos incluyen una multitud de potenciadores y elementos que le dan a Mario, poderes mágicos especiales, como lanzar bolas de fuego o cambiar de tamaño a tamaños gigantes o en miniatura, etc.
+
+      </p>
+
+      <p class="Intro"> La serie Super Mario es parte de la franquicia Mario. Esta incluye otros géneros de videojuegos y otros medios como películas, series de televisión, medios impresos y varios productos. 
+        Para septiembre del año 2015, se habían vendido más de 310 millones de copias de los videojuegos de la serie Super Mario, lo que la convierte en la serie de videojuegos más vendida de la historia. </p>
+      <p>
+        Super Mario Bros. 2 (Cononocido como Super Mario Bros.: The Lost Levels en el resto del mundo) es la secuela oficial del Super Mario Bros. original y fue lanzado como Super Mario Bros. 2 en Japón.
+         Utiliza el motor gráfico original de Super Mario Bros. con algunas adiciones como clima, movimientos de personajes y niveles más complejos, lo que genera una dificultad mucho mayor. El videojuego sigue el mismo estilo de progresión de niveles que Super Mario Bros., con ocho mundos iniciales cada uno con cuatro niveles. 
+         El último nivel de cada mundo es un castillo lleno de lava que culmina en una batalla contra Bowser. Esta secuela no se lanzó fuera de Japón en ese período de tiempo, porque Nintendo of America no quería que la serie de Mario fuera conocida por su dificultad frustrante, que fuera inaccesible para un mercado cada vez más amplio de jugadores de videojuegos estadounidenses, ni que estuviera estrictamente desactualizada por el momento en que dicho videojuego podría finalmente ser lanzado en América.
+        En 1993, el videojuego debutó fuera de Japón con el título Super Mario Bros.: The Lost Levels en la compilación de videojuegos titulada Super Mario All-Stars para la Super Nintendo
+      </p>
+      <p class="Intro">
+        Super Mario Bros. 3 está dividido en ocho mundos temáticos, como en el primer videojuego oficial de la saga de "Super Mario Bros.", pero con varios niveles (entre 6 y 10 niveles por mundo) y varias etapas de bonificación que se muestran como ubicaciones en el mapa del mundo. 
+        Los niveles no están necesariamente en un orden lineal y en ocasiones, se le permite al jugador saltar niveles o mundos.
+        El nivel final de un mundo es un nivel de desplazamiento lateral sobre una aeronave y que finaliza con una pelea contra uno de los siete Koopalines de Bowser.
+        El videojuego introdujo una amplia gama de nuevos potenciadores, incluido el vuelo como "Mario Mapache <br>
+      </p>
+      <p class="Intro"> 
+        <strong>
+         
+        </strong>
+      </p>
+      <p class="Intro"> 
+        Super Mario World fue lanzado para la Super Nintendo y en Japón como "Super Mario Bros. 4" , solo consta de nueve mundos que se muestran a través de un mapa del mundo.
+        La mayoría de todos los 72 niveles tienen una salida, aunque algunos tienen salidas ocultas.Los nuevos movimientos de Mario incluyen un salto giratorio y al dinosaurio Yoshi que puede comer enemigos y tragarlos o escupirlos. 
+        Entre los nuevos potenciadores se incluyen la "Pluma" que permite a Mario y Luigi volar con una capa. </p>
+    </div>
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-center">Super Mario Bros: Top Personajes Favoritos </h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.AO3YQXTJ2DlFP93fyxmd8QHaEK?pid=ImgDet&rs=1"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">MARIO</h5>
+          <p class="card-text">El héroe principal del Reino Champiñón. 
+            Mario es muy positivo y siempre está alegre. 
+            Lo podrás reconocer por sus overoles de color azul, su gorra roja y su característico bigote.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://th.bing.com/th/id/OIP.PfOkyWwnsHrKxhW87q6uXQAAAA?pid=ImgDet&rs=1" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">LUIGI</h5>
+          <p class="card-text">Es el hermano menor de Mario en los videojuegos de Nintendo. Primero apareció en el juego de arcade del año 1983, Mario Bros. luego en Super Mario Bros. 
+            Como segundo jugador papel que continuo desenpeÑando en Super Mario Bros 3 y Super Mario World.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://th.bing.com/th/id/R.46c77a66a9b2c31933b81402e14a7706?rik=GTI6chPDHtdefw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-ErBPdBDEFzk%2fUd4ttt8-vFI%2fAAAAAAAAADU%2fJLU2ZR_v68c%2fs1600%2fPeach%2banimada.gif&ehk=pdbhOr28pd%2bW1jiYDsjEGLgIXoDVkW2%2bVqHDMsl9DD0%3d&risl=&pid=ImgRaw&r=0
+        "
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Princess peach</h5>
+          <p class="card-text">La Princesa Peach o Princesa Toadstool es la princesa del Reino Champiñón. 
+            Apareció por primera vez en Super Mario Bros. para NES. Peach fue creada por Shigeru Miyamoto y es la damisela en apuros en la mayoría de los juegos de Mario. Desde su debut en Super Mario Bros., Peach ha aparecido en casi todos los juegos de la franquicia, volviéndose uno de los iconos más conocidos de los videojuegos y el personaje femenino de los videojuegos más conocido del mundo. 
+            En los juegos de la saga Super Mario, Peach sólo ha sido jugable en Super Mario Bros. 2 y en Super Mario 3D World. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://images5.alphacoders.com/515/515342.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Toad</h5>
+            <p class="card-text">Residente del Reino Champiñón, trabaja al servicio de la Princesa Peach.
+               Toad tiene manchas rojas en la cabeza, aunque otros de su especie vienen en una variedad de colores.
+              Toad es muy alegre y leal. 
+              Hace todo lo posible por ayudar a Mario y a Luigi en sus esfuerzos por proteger el Reino Champiñón de Bowser, incluso si eso significa enfrentarse al peligro durante en el proceso.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="https://mario.nintendo.com/static/233682a28cdb7b3cc0232a81a0b6c4e7/e30b6/bowser-unstack-open.png"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Bowser</h5>
+            <p class="card-text">El rey de los Koopas. Bowser es el archienemigo de Mario y siempre está causando estragos en el Reino Champiñón.
+              Bowser cuenta con muchos secuaces que incluyen a los Koopas, Goombas, Bill Bala y Shy Guys. Cada vez que le pone la mirada al Reino Champiñón sus planes se ven frustrados por Mario y sus amigos.
+                Este poderoso enemigo posee una gran fuerza y hasta puede escupir fuego.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://mario.nintendo.com/static/2208b1d42ecc7ee431fd5321c89dc178/e30b6/yoshi-unstack-closed.png"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Yoshi</h5>
+            <p class="card-text">El confiable compañero de Mario originario de la Isla de Yoshi. Es de color verde, pero otros de su especie vienen de otros colores, como rojo, azul, rosa y amarillo.
+              Yoshi es amable y tranquilo. Utiliza su larga lengua para comerse las frutas y a los enemigos, los cuales puede convertir en huevos que podrá arrojar.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+   <!--Galeria Grupo Card #3- -->
+        <div class="card-group">
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://mario.nintendo.com/static/d58b0ccade70be44e161a3c80ffb9c56/e30b6/boo-unstack-open.png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Boo</h5>
+              <p class="card-text">Unos traviesos fantasmas que suelen deambular en lugares oscuros y abandonados.
+                Puede que estos fantasmas sean espeluznantes, pero también son increíblemente tímidos. 
+                Se congelarán en su lugar y se cubrirán los ojos si alguien los mira directamente</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://mario.nintendo.com/static/d468a32c7ab971cce7b3e89ae48560a0/e30b6/waluigi-unstack-open.png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Waluigi</h5>
+              <p class="card-text">Amigo y cómplice de Wario. Waluigi es el autoproclamado rival de Luigi.
+                Waluigi está dispuesto a esforzarse para derrotar a Mario y a Luigi, aunque solo sea para molestarlos. 
+                Sus largos brazos y piernas lo ayudan a mantenerse competitivo en los deportes.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://mario.nintendo.com/static/33f1fca91af37f22c0dd21e047a731ec/e30b6/donkey-kong-unstack-open.png"
+      
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Donkey kong</h5>
+              <p class="card-text">El rey de la jungla, se distingue por una corbata roja con sus iniciales.
+                Donkey Kong puede lanzar gigantescos barriles con la mayor facilidad, y su fuerza es tan grande que el suelo tiembla cada vez que lo golpea.
+                Le encantan los plátanos y siempre guarda con una gran cantidad en su hogar</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+        
+<!--Galeria Grupo Card #6--->
+          <div class="card-group">
+            <div class="card m-1 p-2">
+              <img class="card-img-top" src="https://mario.nintendo.com/static/647787be0ed352c8252703a25730e99e/e30b6/daisy-unstack-open.png"
+          src=""
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Daisy</h5>
+                <p class="card-text">La princesa de Sarasaland. Su característico estilo se basa en su vestido de color amarillo y sus floreados accesorios.
+                  Daisy es alegre, enérgica y con un corazón muy valiente. Disfruta de jugar diferentes deportes con Mario y sus amigos</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://mario.nintendo.com/static/9e6ea4d476f152c6584a061f17d7a86b/e30b6/bowser-jr-unstack-open.png"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Bowser Jr. </h5>
+                <p class="card-text">Hijo único de Bowser, el rey de los Koopas. A menudo lo verás usando una intimidante máscara con una boca pintada en ella.
+                  Bowser Jr. es pequeño pero ha heredado la gran fuerza de su padre.
+                   Se vuelve berrinchudo si las cosas no salen como él quiere. 
+                  Es conocido por ser muy problemático y puede ser un poco egoísta.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://mario.nintendo.com/static/577e9da07749284cda6bcfe32f649c46/e30b6/rosalina-unstack-open.png"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Rosalina</h5>
+                <p class="card-text">Una misteriosa chica que viaja a través de la galaxia acompañada de su familia de criaturas con forma de estrella llamadas destellos.
+                  Rosalina puede parecer un poco distante, pero en realidad es bastante bondadosa. Es la madre adoptiva de los destellos. 
+                  Y aunque su hogar está entre las estrellas, de vez en cuando se une a las aventuras de Mario y sus amigos.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+
+              <br><br>
+              <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+            
+
+          <h3 id="titulo" class="text-center">Versiones Del Juego</h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+
+              <a href="https://youtu.be/rLl9XBg7wSs" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">
+                Super Mario Bros</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://youtu.be/Xv60LWNshzo"
+                target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button"
+                aria-disabled="true">
+                Super Mario Bros DS
+              </a>
+              </a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://www.youtube.com/live/-qEXcOiwjR4?feature=share" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">
+                Mario kart</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://youtu.be/hOB8bYcV1ik" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">
+             Super Mario 3D World </a>
+                </a>
+
+            </div>
+            <!--Fin Boton Ver versiones-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                
+                <a href="https://www.youtube.com/channel/UCiBRjwyAxAZ05cILvVZSPPg" target="_blank"><i
+                    class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="https://instagram.com/reyesnicely?igshid=ZDdkNTZiNTM=" target="_blank"><i
+                    class="fa fa-instragram-square fa-3x social"></i></a>
+                <a href="https://github.com/Nicely28" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Nicely Reyes <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="index.html">Home</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="sobremi.html">Sobre Mi</a>
+                  </div>
+
+                  <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
